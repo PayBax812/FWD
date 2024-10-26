@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                background-color: peachpuff;
+                color: darkblue;
+                font-size: 25px;
+
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1> This is universal selector</h1>
+
+        <div>
+            This is a program
+            <p>Child paragraph</p>
+            <p> child paragraph</p>
+        </div>
+        <p> Paragraph</p>
+    </body>
+</html>
