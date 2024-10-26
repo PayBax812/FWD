@@ -10,10 +10,11 @@
                 color: green;
                 font-size: 50px;
             }
-            #second{
+           #second:hover{
                 color: black;
-                font-size: 15px;
+                font-size: 25px;
                 font-weight: bold;
+                background-color: yellow;
             }
         </style>
     </head>
