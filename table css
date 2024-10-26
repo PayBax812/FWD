@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <style>
+            /*this applies to both <h1> and <h2> elements*/
+                h1, h2{
+                    background-color: grey;
+                    padding: 4px;
+                }
+                /*applies to all paragraph, elements with class*/
+                /*'highlight', and element with ID 'highlightSpan'*/
+                p, .highlight, #highlightspan{
+                    background-color: yellow;
+                    padding: 10px;
+                } 
+        </style>
+    </head>
+    <body>
+        <h1>CSS Selectors</h1>
+        <h2>Group Selectors</h2>
+        <p>This is a Paragraph</p>
+        <div class="highlight">
+            This is div
+        </div>
+        <br>
+        <span id="highlightSpan">
+            This is span 
+        </span>
+    </body>
+</html>
