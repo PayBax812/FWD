@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <style>
+            .style-div{
+                border: 5px inset gold;
+                width: 300px;
+                text-align: center;
+            }
+            .style-div1{
+                border: 5px inset blue;
+                width: 300px;
+                text-align: center;
+            }
+            .topsDivs{
+                font-weight: bold;
+                font-size: 30px;
+            }
+            .bottomDivs{
+                color: greenyellow;
+                font-size: 20px;
+            }
+        </style>
+        </head>
+        <body>
+            <div class="style-div">
+                <div class="topsDivs">
+                    Hello World
+                </div>
+                <div class="topsDivs">
+                    Learn CSS
+                </div>
+            </div>
+            <div class="style-div1">
+                <div class="bottomDivs">
+                    From
+                </div>
+                <div class="bottomDivs">
+                    Bottom Style
+                </div>
+            </div>
+        </body>
+</html>
