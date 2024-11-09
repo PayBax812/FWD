@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title> USing innerhtml property</title>
+    </head>
+    <body>
+        <h1>Using innerhtml property</h1>
+            <div id="output"></div>
+            <script>
+                document.getElementById("output").innerHTML="hello World";
+                document.getElementById("output").style.color="blue";
+                document.getElementById("output").style.size="30px";
+            </script>
+    </body>
+</html>
