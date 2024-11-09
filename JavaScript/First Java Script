@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body style="background-color: lightblue; font-weight: 50px;">
+        <script language="javascript" type="text/javascript">
+            document.write("hello world");
+            alert("this is an alert!");
+            confirm("Please confirm your name is ABC");
+            prompt("this is a prompt");
+            document.write("we implemented 35 dialouge box");
+        </script>
+    </body>
+</html>
