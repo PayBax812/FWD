@@ -1,0 +1,48 @@
+<htmL>
+    <body>
+        <h2 style="color: green;">Create a checkbox and get its value</h2>
+        <h4>Select The Programming Language, you know</h4>
+
+        Java:<input type="checkbox" id="check1" class="p1" value="java">
+        PHP:<input type ="checkbox" id="check2" class="p1" value="php">
+        Angular<input type="checkbox" id="check3" class="p1" value="angular">
+        CSS:<input type="checkbox" id="check4" class="p1" value="css">
+
+        <button onclick="getCheckboxValue()">Submit</button>
+        <h4 style="color: blue;" id="result"></h4>
+
+        <script>
+            function getCheckboxValue() {
+                var l1= document.getElementById("check1");
+                var l2= document.getElementById("check2");
+                var l3= document.getElementById("check3");
+                var l4= document.getElementById("check4");
+
+                var res=" ";
+
+                if(l1.checked == true){
+                    var pl1 = document.getElementById("check1").value;
+                    res = pl1+",";
+                }
+                 if (l2.checked == true){
+                    var pl2 = document.getElementById("check2").value;
+                    res = res + pl2 +",";
+                }
+                 if (l3.checked == true){
+                    var pl3 = document.getElementById("check3").value;
+                    res = res + pl3 +",";
+                }
+                 if (l4.checked == true){
+                    var pl4 = document.getElementById("check4").value;
+                    res = res + pl4 +",";
+                }
+                
+                if(res == " ")
+                {
+                    return document.getElementById("result").innerHTML = "You have not selected anything";
+                }
+                return document.getElementById("result").innerHTML = "you have selected " + res + "languages";
+                }
+        </script>
+    </body>
+</htmL>
