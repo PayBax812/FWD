@@ -1,0 +1,23 @@
+<html>
+    <body>
+
+        <form>
+            Select your favourite food:
+            <select id="myList" onchange="myFun()">
+                <option></option>
+                <option>Pizza</option>
+                <option>Aloo Paratha</option>
+                <option>Sandwich</option>
+                <option>burger</option>
+                <option>Vada Pav</option>
+            </select>
+            <p>Your Favourite Food is : <input type="text" id="demo" size="20"></p>
+        </form>
+        <script>
+            function myFun(){
+                var myList = document.getElementById("myList");
+                document.getElementById("demo").value = myList.options[myList.selectedIndex].text;
+            }
+        </script>
+    </body>
+</html>
