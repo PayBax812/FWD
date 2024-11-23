@@ -1,0 +1,25 @@
+<html>
+    <bodY>
+        <form onsubmit="validateForm()">
+            <label for = "username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <label for ="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <br/>
+            <input type="submit" value="Submit">
+        </form>
+        <script>
+            function validateForm() {
+                var username = document.getElementById('username').value;
+                var password = document.getElementById('password').value;
+          
+                //Perform Validation
+                if (username == "" || password == "") {
+                    alert("Please fill in all fields");
+                    return false; //prevent form submission
+            }
+            alert("Form Submitted! Username is:" + username +"Password is:" + password);
+        }
+        </script>
+    </bodY>
+</html>
